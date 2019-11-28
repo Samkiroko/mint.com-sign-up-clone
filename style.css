@@ -70,7 +70,7 @@ nav {
   cursor: pointer;
 }
 
-/* main logo css */
+/* main logo  on the form css */
 #logo-container {
   width: 100%;
   margin: 0 auto;
@@ -79,21 +79,21 @@ nav {
 
 #header-brand {
   background-image: url(img/logo.png);
-  width: 118px;
-  height: 35px;
+  width: 117px;
+  height: 36px;
   margin: 0 auto;
 }
 
 #bottom-header {
   background-color: #eceef1;
-  margin: 15px auto;
+  margin: 16px auto;
   display: block;
   width: 100%;
 }
 
 #logo-bottom {
   margin: auto;
-  height: 32px;
+  height: 34px;
   width: 318px;
   background-image: url(img/logo-bottom.png);
 }
