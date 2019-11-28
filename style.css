@@ -1,0 +1,312 @@
+/* html css */
+html {
+  font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+  text-align: left;
+  background-color: #eceef1;
+}
+
+/* nav bar css */
+nav {
+  height: 60px;
+  padding: 10px 30px;
+}
+
+.cont-nav {
+  float: right;
+}
+
+.nav-col {
+  float: left;
+  margin-left: 10px;
+  text-align: right;
+}
+
+/* links css */
+.link {
+  color: #0077c5;
+  text-decoration: none;
+}
+
+/* sign button img css */
+.sign-img {
+  height: 1em;
+  width: 0.8em;
+  margin-top: 2px;
+  margin-right: 4px;
+  vertical-align: text-top;
+  display: inline-block;
+  background-image: url(img/lock.png);
+  background-size: contain;
+}
+
+/* buttons css */
+.btn1 {
+  background: #0077c5;
+  border-radius: 4px;
+}
+
+.sign-in-btn1 {
+  height: 34px;
+  padding: 0 20px;
+  color: white;
+  font-size: 1.125em;
+  border: 1px solid #4c4c4c;
+  cursor: pointer;
+}
+
+.sign-up-btn {
+  margin-left: 6px;
+  width: 100%;
+  height: 44px;
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #fff;
+  display: inline-block;
+  padding: 6px 12px;
+  line-height: 1.4285;
+  cursor: pointer;
+}
+
+/* main logo css */
+#logo-container {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+#header-brand {
+  background-image: url(img/logo.png);
+  width: 118px;
+  height: 35px;
+  margin: 0 auto;
+}
+
+#bottom-header {
+  background-color: #eceef1;
+  margin: 15px auto;
+  display: block;
+  width: 100%;
+}
+
+#logo-bottom {
+  margin: auto;
+  height: 32px;
+  width: 318px;
+  background-image: url(img/logo-bottom.png);
+}
+
+/* top header form  icon css */
+.services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.icon {
+  height: 24px;
+  width: 24px;
+  display: inline-block;
+  list-style: none;
+  margin-right: 7px;
+}
+
+.mint-icon {
+  background: url(img/pic_001.svg) no-repeat;
+}
+
+.mint-icon-text {
+  background: url(img/pic_002.svg) no-repeat;
+  width: 37px;
+  height: 20px;
+}
+
+.quickbooks-icon {
+  background: url(img/pic_003.svg) no-repeat;
+}
+
+.quickbooks-icon-text {
+  background: url(img/pic_004.svg) no-repeat;
+  width: 98px;
+  height: 22px;
+}
+
+.turbotax-icon {
+  background: url(img/pic_005.svg) no-repeat;
+}
+
+.turbotax-icon-text {
+  background: url(img/pic_006.svg) no-repeat;
+  width: 74px;
+  height: 22px;
+}
+
+
+
+/* main form table css */
+#sign-up-table {
+  background-color: #fff;
+  border: 1px solid #c7c7c7;
+  border-bottom: none;
+  margin: auto;
+  padding: 30px;
+  width: 380px;
+  font-size: 14px;
+  border-radius: 2px;
+}
+
+.sign-up-header {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+#sign-up-heading {
+  color: #4c4c4c;
+  line-height: 1.1;
+  font-size: 24px;
+  display: block;
+}
+
+#sign-up-subheading {
+  color: #4c4c4c;
+  font-weight: 300;
+  line-height: 1.2;
+  padding-top: 20px;
+  display: block;
+}
+
+.learn-link {
+  font-size: 12px;
+  display: block;
+}
+
+#sign-up-form {
+  display: block;
+}
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+.form-label {
+  font-weight: 400;
+  color: #404040;
+  line-height: 25px;
+  padding-bottom: 6px;
+  display: block;
+}
+
+.form-input {
+  margin: 0;
+  border: 1px solid #c1c5c8;
+  border-radius: 3px;
+  line-height: 1.3em;
+  color: #000;
+  font-size: 1.2em;
+  height: 34px;
+  width: 320px;
+  padding-left: 8px;
+  padding-right: 6px;
+}
+
+/* password input open-lock img */
+.form-input2 {
+  margin: 0;
+  border: 1px solid #c1c5c8;
+  border-radius: 3px;
+  line-height: 1.3em;
+  color: #000;
+  font-size: 1.2em;
+  height: 34px;
+  width: 320px;
+  padding-left: 8px;
+  padding-right: 6px;
+  background-image: url(img/pic_007.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-origin: content-box;
+  background-size: 2.5rem 2.5rem;
+}
+
+#phone-info {
+  line-height: 1.2em;
+  font-size: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.lock-open-img {
+  height: 1em;
+  width: 0.8em;
+  margin-top: 2px;
+  margin-right: 4px;
+  vertical-align: text-top;
+  display: inline-block;
+  background-image: url(img/lock.png);
+  background-size: contain;
+}
+
+/* sign up button css */
+#sign-up-actions {
+  padding-top: 15px;
+  width: 340px;
+  height: 44px;
+}
+
+#sign-up-footer {
+  margin: 30px auto;
+  width: 280px;
+  text-align: center;
+}
+
+/* google reCAPTCHA css */
+#terms {
+  color: #757575;
+  font-style: italic;
+  font-size: 12px;
+}
+
+#captcha-container {
+  border: 1px solid #c7c7c7;
+  border-top: none;
+  display: block;
+  padding: 30px;
+  margin: 0 auto;
+  width: 380px;
+  text-align: center;
+}
+
+#captcha-terms {
+  font-size: 10px;
+  color: #8d9096;
+}
+
+/* footer css */
+.footer {
+  color: #505050;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 0;
+  display: block;
+}
+
+.footer-links {
+  list-style: none;
+  padding-top: 5px;
+}
+
+.footer-links li {
+  display: inline;
+}
+
+.footer-links li a {
+  color: #505050;
+  text-decoration: none;
+}
