@@ -62,7 +62,6 @@ nav {
   cursor: pointer;
   display: inline-block;
   font-size: 16px;
-  font-size: 16px;
   height: 44px;
   line-height: 1.4285;
   margin-left: 6px;
@@ -241,7 +240,7 @@ fieldset {
 }
 
 .lock-open-img {
-  background-image: url(img/lock.png);
+  background-image: url(img/lock\\(copy\).png);
   background-size: contain;
   display: inline-block;
   height: 1em;
