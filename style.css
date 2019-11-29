@@ -60,6 +60,7 @@ nav {
 .sign-up-btn {
   color: #fff;
   cursor: pointer;
+  box-sizing: content-box;
   display: inline-block;
   font-size: 16px;
   height: 44px;
@@ -273,6 +274,7 @@ fieldset {
 #captcha-container {
   border: 1px solid #c7c7c7;
   border-top: none;
+  box-sizing: content-box;
   display: block;
   margin: 0 auto;
   padding: 30px;
